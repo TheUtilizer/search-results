@@ -9,6 +9,11 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: auto;
   font-size: 0.875rem;
+  color: #202124;
+}
+
+section {
+  margin-left: 15%;
 }
 
 ul {
@@ -26,6 +31,11 @@ h2 {
   line-height: 1.2;
 }
 
+h3 { 
+  font-weight: 400;
+  color: #3492eb;
+}
+
 img {
   width: 100%;
   max-width: 100%;
@@ -39,4 +49,172 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* end default styles */
+
+/* custom styles */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+header .g-icon {max-width: 200px;}
+
+header img {
+  margin-right: 100px;
+  max-width: 160px;
+}
+
+.search-bar {
+  border: 1px solid gray;
+  border-radius: 35px;
+  width: 69%;
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  margin-right: auto;
+  width: 80%;
+  height: 2.5em;
+  border: none;
+  outline: none;
+  margin-left: 2em;
+}
+
+
+.search-bar i.fa-solid {
+  margin-right: 20px;
+  font-size: 20px;
+  color: cornflowerblue;
+}
+
+.search-bar #xmark {
+  margin-right: 20px;
+  font-size: 25px;
+  color: darkgrey;
+  position: relative;
+  z-index: 69;
+  border-right: 1px solid darkgrey;
+  padding-right: 20px;
+}
+
+.container .links {
+  max-width: 80%;
+  display: flex;
+  float: left;
+  margin: 1.5em 0;
+}
+
+.links ul {
+  margin-right: 188px;
+  margin-top: 1.5em;
+  display: flex;
+  gap: 2em;
+}
+
+.links .tools {
+  margin-top: 1.5em;
+}
+
+.tools a {
+  margin-right: 2em;
+}
+
+
+header .left-search {
+  display: flex;
+  gap: 3em;
+  align-items: center;
+}
+
+.left-search {
+  display: flex;
+  gap: 3em;
+}
+
+.left-search > img {
+  max-width: 75px;
+  max-height: 75px;
+  border-radius: 50%;
+}
+
+span.statistics {
+  color: darkgray;
+  font-size: 1rem;
+}
+
+.main {
+  line-height: 1.5;
+}
+
+.container {
+  margin-left: -13;
+  margin-top: 1em;
+}
+
+.support {
+  display: flex;
+  margin-top: 2em;
+}
+
+.support > span {
+  color: darkgray
+}
+
+.content {
+  max-width: 45%;
+  margin-top: 1.5em;
+  line-height: 1.5;
+}
+
+.content span {color: darkgray;}
+
+.content a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.peopleAsk {
+  max-width: 45%;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+  margin-top: 2em;
+}
+
+.question-table {
+  line-height: 2.9;
+  padding: 5px;
+}
+
+.question-table > h2 {
+  border-bottom: 1px solid darkgray;
+}
+
+.question-table:nth-child(5) {
+  border-bottom: none;
+}
+
+.question-table > p {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid darkgray;
+}
+
+.fback {
+  margin-left: 40%;
+  color: darkgray;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .container {min-width: 1160px;}
 }
