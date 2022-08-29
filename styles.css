@@ -195,7 +195,7 @@ span.statistics {
   border-bottom: 1px solid darkgray;
 }
 
-.question-table:nth-child(5) {
+.question-table p.last {
   border-bottom: none;
 }
 
